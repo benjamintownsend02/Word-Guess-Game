@@ -1,0 +1,19 @@
+body{
+    background-image: url(../images/img4.jpg);
+    background-size: 100%;
+    /*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+}
+
+h1{
+    font-size: 150%;
+}
+
+#primary{
+    text-align: center;
+    background-color: #999999;
+    color: black;
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+}
