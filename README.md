@@ -4,5 +4,4 @@ This project is a simple game that generates words from a space-themed list for 
 
 Version: 1.0
 
-Known issues:
--Console throws error message upon loss, apparently related to sound use. No observed impact in functionality of game.
+Known issues: None

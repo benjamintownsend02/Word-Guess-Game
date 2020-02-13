@@ -60,7 +60,10 @@ function playRight()
 function playLoss()
 {
     var lossSound=document.getElementById("audio-loss");
-    lossSound.play();
+    var nopromise = {
+        catch : new Function()
+        };
+        (lossSound.play() || nopromise).catch(function(){});    
 }
 
 reset();
@@ -133,7 +136,7 @@ document.onkeyup = function(event)
     }
     else if(misses===0)
     {
-        playLoss()
+        playLoss();
         alert("YOU LOSE. BETTER LUCK NEXT TIME!");
         reset();
         losses++;
